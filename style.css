@@ -1,0 +1,206 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+.cont-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+/* ___________________BLOCK 1 STYLING_____________________________ */
+
+.block1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #1f2937;
+  padding: 100px 15%;
+  gap: 50px;
+  min-height: 400px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-block .block1-title {
+  color: #f9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.left-block .block1-body {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+}
+
+.img-holder {
+  display: flex;
+  flex: 100%;
+  margin: 0px;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.sign-up {
+  background-color: #3882F6;
+  border: 1px solid #3882F6;
+  color: white;
+}
+
+/* ___________________BLOCK 2 STYLING_____________________________ */
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 20%;
+  text-align: center;
+}
+
+.block2 .block2-main {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card p {
+  color: rgb(52, 52, 52);
+}
+
+.empty-block {
+  border: 3px solid #3882F6;
+  flex: 1 0 auto;
+  aspect-ratio: 1 /1;
+  padding: 50%;
+  border-radius: 25%;
+}
+
+/* ___________________BLOCK 3 STYLING_____________________________ */
+
+.block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px 20%;
+}
+
+.block3 .quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.block3 .author {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+/* ___________________BLOCK 4 STYLING_____________________________ */
+
+.block4 {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 15%;
+  align-items: flex-start;
+}
+
+.block4-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882F6;
+  flex: 1;
+  border-radius: 25px;
+  padding: 30px;
+  min-width: 100%;
+}
+
+.block4 .ctatext {
+  color: white;
+}
+
+.block4 .ctatext h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.block4 .ctatext p {
+  margin: 0px;
+  padding: 0px;
+}
+
+button.sign-up-cta {
+  background-color: #3882F6;
+  border: 1px solid white;
+  color: white;
+  margin: auto;
+}
+
+/* ___________________Footer_____________________________ */
+
+.footer {
+  display: block;
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    gap: 16px;
+  }
